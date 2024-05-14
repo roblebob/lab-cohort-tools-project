@@ -32,6 +32,6 @@ cohortSchema.add({
   totalHours: { type: Number, default: 360 },
 });
 
-const Cohort = mongoose.model("Cohort", studentSchema);
+const Cohort = mongoose.model("Cohort", cohortSchema);
 
 module.exports = Cohort;
